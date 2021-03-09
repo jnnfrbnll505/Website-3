@@ -26,12 +26,18 @@ h1 {
 <h1>Here I am using a Text Shadow!</h1>
 <div id="Favorite">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo odio non justo hendrerit, eget malesuada magna posuere. Quisque vel justo velit. Duis diam leo, rutrum porta porttitor nec, maximus vitae ex. Integer volutpat fermentum ex, eget maximus turpis suscipit vel. Quisque et porttitor nunc. Ut nec lectus ut justo pharetra volutpat sed id purus. Quisque hendrerit mauris quis risus consectetur, sed blandit urna ultrices.</div>
 div {
-  width: 300px;
+  width: 100px;
   height: 100px;
-  padding: 15px;
-  background-color: yellow;
-  box-shadow: 10px 10px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
 }
-<div>This is a div element with a box-shadow</div>
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
 </body>
 </html>
