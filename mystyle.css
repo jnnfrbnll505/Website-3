@@ -1,6 +1,7 @@
 body {
-  background-color: #daba29;
-}
+  #grad {
+    background-image: linear-gradient(blue, green);
+  }
 
 h1 {
   color: #ff0000;
